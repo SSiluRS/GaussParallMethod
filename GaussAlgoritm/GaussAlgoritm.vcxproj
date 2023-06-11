@@ -131,20 +131,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Gauss.h" />
     <ClInclude Include="GaussLine.h" />
     <ClInclude Include="GaussParall.h" />
     <ClInclude Include="Matrix.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Gauss.cpp" />
     <ClCompile Include="GaussLine.cpp" />
     <ClCompile Include="GaussParall.cpp" />
     <ClCompile Include="Matrix.cpp" />
     <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
